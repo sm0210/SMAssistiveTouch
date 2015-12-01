@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+	padding: 0px; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	-ms-touch-action: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-input-placeholder-color: #aaa;
+}
+
+*,*::after,*::before {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-input-placeholder-color: transparent;
+    /*-webkit-overflow-scrolling: touch;*/
+}
+/**
+ * SMAssistiveTouch 样式
+ */
+.assistiveTouch {
+    z-index: 99999;
+    position: fixed;
+    cursor: pointer;
+    background: transparent url("../images/assistiveTouch.png") center center no-repeat;
+    /*等比例缩放背景图片，自适应*/
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
