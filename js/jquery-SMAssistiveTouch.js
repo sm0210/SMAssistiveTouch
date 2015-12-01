@@ -13,7 +13,7 @@
 			
 			//渲染SMAssistiveTouch辅助功能按钮
 			s.newSMAssistiveTouch = function(){
-				//产品id
+				//SMAssistiveTouchId
 				SMAssistiveTouchId = SMAssistiveTouchId + s.createRandom(2,0,50);
 				//实例化SMAssistiveTouch辅助功能按钮
 				var str='<div id="'+SMAssistiveTouchId+'"  class="assistiveTouch"></div>';
