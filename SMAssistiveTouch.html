@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+	author:SM
+	e-mail:sm0210@qq.com
+	desc:SMAssistiveTouch辅助功能按钮
+	version:SMAssistiveTouch辅助功能按钮 0.1
+-->
+<meta charset="utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>SMAssistiveTouch辅助功能按钮</title>
+<!--引入SMAssistiveTouch辅助功能按钮样式-->
+<link rel="stylesheet" type="text/css" href="css/SMAssistiveTouch.css">
+<!--引入jquery-->
+<script language="javascript" src="js/jquery.js"></script>
+<!--引入SMAssistiveTouch辅助功能按钮js插件-->
+<script language="javascript" src="js/jquery-SMAssistiveTouch.js"></script>
+<script language="javascript">
+	$(function(){
+		//实例化方式一：SMAssistiveTouch辅助功能按钮
+		$('body').initSMAssistiveTouch({onClick:onClick});
+		//实例化方式二：SMAssistiveTouch辅助功能按钮
+		$('body').initSMAssistiveTouch({x:170,y:170,onClick:onClick2});
+	});
+	
+	/**
+		监听点击事件
+	*/
+	function onClick(e){
+		alert('点击了SMAssistiveTouch辅助功能事件');
+	}
+	/**
+		监听点击事件
+	*/
+	function onClick2(e){
+		alert('第二次点击了SMAssistiveTouch辅助功能事件');
+	}
+</script>
+</head>
+
+<body>
+<div  style="border:1px solid red; height:900px; background:url(sm0210@qq.com.jpg) no-repeat center;">
+<h2>SMAssistiveTouch辅助功能按钮</h2>
+<br>
+
+<h4 style="color:red;">
+	请在手持设置上拖拽SMAssistiveTouch查看效果
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+如果您觉得此文有帮助，可以打赏点钱给我支付宝sm0210@qq.com ，或扫描二维码
+</h4>
+</div>
+</body>
+</html>
