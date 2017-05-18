@@ -15,7 +15,7 @@ desc:SMAssistiveTouch辅助功能插件JS
 version:SMAssistiveTouch辅助功能插件 0.1
 
 
-##实例化插件方法：
+## 实例化插件方法：
 
 <b>//实例化SMAssistiveTouch辅助功能插件 一</b>
 
@@ -41,11 +41,11 @@ function onClick2(e){
 		
 }
 	
-##效果
+## 效果
 ![](https://github.com/sm0210/SMAssistiveTouch/blob/master/SMAssistiveTouch.png "SMAssistiveTouch辅助功能插件")
 
 
-###如果您觉得此文有帮助，可以打赏点钱给我支付宝sm0210@qq.com ，或扫描二维码
+### 如果您觉得此文有帮助，可以打赏点钱给我支付宝sm0210@qq.com ，或扫描二维码
 ![](https://github.com/sm0210/SMAssistiveTouch/blob/master/sm0210%40qq.com.jpg "sm0210@qq.com")
 
 
